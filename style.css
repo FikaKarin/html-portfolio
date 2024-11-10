@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 20px 40px; /* Adds padding on the left and right */
+    max-width: 1000px; /* Sets a max width to prevent content from stretching too wide */
+    margin: auto; /* Centers the content */
+    font-family: Arial, sans-serif; /* Optional: Sets a clean font */
+}
+
+#header {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+#header img {
+    margin-left: 40px; /* Pushes the image to the right */
+    height: 170px;
+}
+
+li {
+    font-weight: 600;
+    color: blue;
+    list-style-type: none;
+}
+
+#skills {
+    font-size: 13px; 
+    font-weight: 400;
+}
+
+#courses {
+    color: black;
+    list-style-type:circle;
+    font-weight: 400;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#footer p {
+    margin-right: 10px;
+}
